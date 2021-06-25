@@ -10,7 +10,7 @@ import {
 
 
 const Random = () => {
-
+    const [reloader, setReloader] = useState(0)
     const [data, setData] = useState(null)
     useEffect(async () => {
 
@@ -19,11 +19,9 @@ const Random = () => {
         setData(result.data)
         console.log(result)
 
-    }, [])
+    }, [reloader])
     //  console.log(data.meals[0].strMeal)
-    function refreshPage() {
-        document.location.reload()
-    }
+   
     return (
         <div className="Random">
             <div className="Menu">
@@ -61,7 +59,11 @@ const Random = () => {
             <div className="Textrandom">
                 <p className="Click">Click The Icon Below and See What We Found For You !!</p>
 
-                <button onClick={refreshPage}><span>Random Search</span></button>
+                <button onClick={() =>{
+                    setReloader(reloader + 1)
+                }
+
+                }><span>Random Search</span></button>
                
             </div>
             <div className="Icons">
