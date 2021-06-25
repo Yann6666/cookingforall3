@@ -1,0 +1,541 @@
+/*--------DEBUT HOME--------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/*--------DEBUT HOME--------*/
+
+.Homebackground{
+  background-image: url(./images/backgroundhome.jpg);
+  min-height: 100vh;
+}
+
+h1{
+  font-family: 'Pinyon Script', cursive;
+  font-size: 4.5rem;
+  color: rgba(100, 6, 6, 0.89);
+  font-weight: bolder;
+ 
+
+}
+.Titre{
+  padding: 2rem 0 2rem 0;
+  border: 5px solid rgb(255, 115, 1);
+  height: 6rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-left: 11rem;
+  border-radius: 50px;
+  background: rgba(251, 174, 84, 0.64);
+  box-shadow: 10px 9px 7px -1px rgba(253,94,0,0.56);
+  -webkit-box-shadow: 10px 9px 7px -1px rgba(253,94,0,0.56);
+  -moz-box-shadow: 10px 9px 7px -1px rgba(253,94,0,0.56);
+ 
+}
+
+.Icons{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  margin-left: 11rem;
+  width: 80%;
+  
+}
+
+.Icons img{
+  height: 200px;
+  width: 200px;
+
+  border-radius: 100px;
+  background: linear-gradient(#14ffe9, #ffeb3b, #ff00e0);
+  padding: 10px;
+  cursor: pointer;
+  background-position: center;
+  background-size: 100%;
+  
+}
+
+
+.Icons img:hover{
+  background-size: 200%;
+  background-position: center;
+  padding: 30px;
+  
+}
+
+.Text{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 14rem;
+  width: 77%;
+}
+.Text p{
+  font-size: 2rem;
+  color: rgba(100, 6, 6, 0.89);
+  font-weight: bolder;
+}
+
+.Welcome{
+  padding: 2rem 0 2rem 10rem;
+  border: 5px solid rgb(255, 81, 1);
+  height: 8rem;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin-left: 11rem;
+  margin-top: 150px;
+  border-radius: 60px;
+  background: rgba(251, 174, 84, 0.64);
+  box-shadow: 10px 9px 7px -1px rgba(253,94,0,0.56);
+  -webkit-box-shadow: 10px 9px 7px -1px rgba(253,94,0,0.56);
+  -moz-box-shadow: 10px 9px 7px -1px rgba(253,94,0,0.56);
+  
+}
+.Welcome p{
+  display: flex;
+  text-align: center;
+  font-size: 3rem;
+  width: 80%;
+  color: rgba(100, 6, 6, 0.89);
+  font-weight: bolder;
+}
+
+/*--------FIN HOME--------*/
+/*--------DEBUT RANDOM--------*/
+
+
+.Random{
+  background-image: url(./images/backgroundrandom.jpg);
+  background-image: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: inline-flex;
+}
+
+.IconHome{
+  height: 100px;
+  width: 100px;
+ cursor: pointer;
+  margin-top: 0px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  background:rgba(153, 151, 151, 0.5);
+}
+
+.Textrandom{
+  height: 360px;
+  width: 290px;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding-top: 50px;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 220px; 
+  margin-top: 250px;
+  border: 5px outset #ea7f73;
+  background: rgba(191,82,82,0.44);
+}
+.Textrandom .Click{
+  color: rgba(100, 6, 6, 0.89);
+  margin-bottom: 40px;
+  
+}
+
+
+.Textrandom button{
+  height: 70px;
+  width: 220px;
+  border-radius: 100px;
+  font-size: 1.5rem;
+  color: rgba(100, 6, 6, 0.89);
+  font-weight: bold;
+  outline: none;
+  background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #44ce7b);
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.Random .Icons img{
+  height: 100px;
+  width: 100px;
+  margin-left: 30px;
+  
+}
+.Random .Icons img:hover{
+  padding: 3px;
+}
+ 
+.Random .Icons{
+  width:500px;
+  height: 170px;
+  margin-top: 640px;
+  margin-right: 520px;
+  margin-left: -400px;
+  display: flex;
+}
+.Icons P{
+  font-size: 1.3rem;
+  color: rgb(141, 115, 1);
+  font-weight: bolder;
+}
+
+.Menu {
+  background-color: transparent;
+  position: absolute;
+  margin-top:285px;
+  margin-left: 850px;
+  height: 520px;
+  width: 600px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Menu h3{
+  color: #fff;
+  font-family: 'Pinyon Script', cursive;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.Menu h2{
+  color: #fff;
+  margin-bottom: 15px;
+}
+.Menu img{
+  height: 300px;
+  height: 300px;
+  border-radius: 10px;
+
+}
+.Menu .Logo{
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+
+/*--------FIN RANDOM--------*/
+/*--------DEBUT INGREDIENT--------*/
+.Ingredients{
+  background-image: url(./images/backgroundingredient2.jpg);
+  background-image: no-repeat;
+  background-image: cover/center;
+  min-height: 400vh;
+  width: 100%;
+  margin: 0 auto;
+  
+}
+header{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+.Recipe .Searchinput{
+  margin-top: 80px;
+  position:relative;
+  height: 90px;
+  width: 60rem;
+  font-size: 2rem;
+  outline: none;
+  padding-left: 120px;
+  font-weight: bold;
+  background: rgba(204, 204, 204, 0.479);
+  border: 4px outset rgba(164,72,72,0.71);
+  border-radius: 50px;
+  box-shadow: 12px 11px 5px 0px rgba(108,54,3,0.24);
+  -webkit-box-shadow: 12px 11px 5px 0px rgba(108,54,3,0.24);
+  -moz-box-shadow: 12px 11px 5px 0px rgba(108,54,3,0.24);
+}
+.Loupe{
+  display: flex;
+  height: 80px;
+  width: 80px;
+  margin-left:320px;
+  position:absolute;
+  margin-top:85px;
+  border-radius: 50px;
+}
+
+.NoResult{
+  font-size: 5rem;
+  color:rgb(119, 23, 23);
+  font-weight: bolder;
+  width:30%;
+  margin-left:400px;
+  display: flex;
+  justify-content:center;
+  text-align: center;
+ 
+}
+
+.Ingredients .Icons img{
+  height: 100px;
+  width: 100px;
+  /* margin-left: 30px; */
+  
+}
+.Ingredients .Icons img:hover{
+  padding: 3px;
+}
+ 
+.Ingredients .Icons{
+  width:900px;
+  height: 170px;
+  margin-top: 70px;
+   margin-right: 720px;
+ /* margin-left: 400px; */
+  display: flex;
+}
+.Ingredients .SearchRandom{
+  
+  height: 160px;
+ margin-left:130px;
+ margin-right: 600px;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ width: 200px;
+  
+}
+.Ingredients .SearchCount{
+  margin-left: 160px;
+ margin-top: 5px;
+  height: 160px;
+}
+.Icons P{
+  font-size: 1.3rem;
+  color: rgb(141, 115, 1);
+  font-weight: bolder;
+}
+.Cards{
+  width: 70%;
+  height: 300vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0 auto;
+  margin-left: 230px;
+  display: flex;
+  justify-content: space-between;
+}
+.CardIngredients{
+  height: 300px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+  background: rgba(145, 145, 145, 0.479);
+  box-shadow: 6px 4px 15px 0px rgba(99,43,36,0.47);
+}
+.CardIngredients h3{
+  font-size: 2rem;
+  overflow: hidden;
+}
+.CardIngredients h2{
+  font-size: 1rem;
+}
+.CardIngredients .Logo{
+ height: 50px;
+ width: 50px;
+}
+.CardIngredients img{
+  width: 150px;
+  border-radius: 10px;
+}
+
+/*--------FIN INGREDIENT--------*/
+/*--------DEBUT COUNTRY--------*/
+.Country{
+background-image: url(./images/backgroundcountry2.jpg);
+min-height: 100vh;
+width: 100%;
+background-image: cover/center;
+
+}
+.AllFlags{
+  
+  width: 85%;
+  height: 400px;
+  margin-left: 120px;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+
+}
+.Flag{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 8px;
+  width: 120px;
+  background:rgba(255,255,255,0.5);
+  border-radius:10px;
+  border: 3px outset #75b6e2;
+  box-shadow: 3px 3px 10px 1px #175877a2;
+  cursor: pointer;
+}
+.Flag p{
+  font-weight: bolder;
+  font-size: 1.2rem;
+  color: #fff;
+  background: rgb(22, 22, 22);
+  border-radius: 5px;
+  margin-top: -5px;
+  width: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.Wonders input{
+  margin-left: 80px;
+  height: 130px;
+  width: 90%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Pinyon Script', cursive;
+color: rgba(100, 6, 6, 0.89);
+font-weight: bold;
+outline: none;
+border: hidden;
+  border-radius: 20px;
+  background: rgb(99,180,58);
+  background: linear-gradient(203deg, rgba(99,180,58,1) 0%, rgba(29,253,224,0.40379901960784315) 50%, rgba(69,113,252,1) 100%);
+  box-shadow: 12px 10px 10px 1px #0f4e4e;
+}
+.Wonders p{
+  font-size: 3rem;
+  font-weight: bolder;
+  font-family: 'Pinyon Script', cursive;
+color: rgba(100, 6, 6, 0.89);
+}
+
+.Country .IconCountry{
+  height: 200px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Country .IconCountry img{
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  justify-content: space-between;
+  outline: none;
+   background: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #44ce7b);
+   padding:10px;
+  /* margin-left: 30px; */
+  
+}
+.Country .IconCountry img:hover{
+  padding: 2px;
+}
+
+.IconCountry .SearchRandomCountry, .SearchIngCountry{
+  height: 200px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ border-radius: 50px;
+ background: rgba(78, 78, 78, 0.555);
+ box-shadow: 8px 6px 6px 1px #8b8b8b;
+}
+
+.Country .SearchRandomCountry p, .SearchIngCountry p{
+  font-size: 1.3rem;
+  color: rgb(223, 164, 3);
+  font-weight: bolder;
+}
+
+.Card{
+ margin-top: 50px;
+  width: 70%;
+  height: 300vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0 auto;
+  margin-left: 230px;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.CardCountry{
+  height: 300px;
+  width: 250px;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 15px;
+  background: rgba(145, 145, 145, 0.479);
+  box-shadow: 6px 4px 15px 0px rgba(99,43,36,0.47);
+}
+
+.CardCountry h2{
+  font-size: 1.6rem;
+  overflow: hidden;
+  justify-content: center;
+  text-align: center;
+}
+
+.CardCountry img{
+  width: 150px;
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.CardCountry p{
+  cursor: pointer;
+}
+
+button{
+  background: none;
+  border: none;
+}
+
+/*--------FIN COUNTRY--------*/
+
+
+
+
+
