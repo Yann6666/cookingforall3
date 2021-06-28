@@ -11,28 +11,38 @@
 /*--------DEBUT HOME--------*/
 
 .Homebackground{
+  top: 0;
+ left: 0;
   background-image: url(./images/backgroundhome.jpg);
   min-height: 100vh;
+  width: 100%;
+
+  background: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
 }
+
 
 h1{
   font-family: 'Pinyon Script', cursive;
   font-size: 4.5rem;
   color: rgba(100, 6, 6, 0.89);
   font-weight: bolder;
+  text-align: center;
  
 
 }
 .Titre{
-  padding: 2rem 0 2rem 0;
+  padding: 2rem auto;
   border: 5px solid rgb(255, 115, 1);
   height: 6rem;
   width: 80%;
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   align-content: center;
-  margin-left: 11rem;
+  margin-left: 10rem;
   border-radius: 50px;
   background: rgba(251, 174, 84, 0.64);
   box-shadow: 10px 9px 7px -1px rgba(253,94,0,0.56);
@@ -72,11 +82,12 @@ h1{
 }
 
 .Text{
+  
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  margin-left: 14rem;
-  width: 77%;
+  margin-left: 9rem;
+  width: 85%;
 }
 .Text p{
   font-size: 2rem;
@@ -85,7 +96,7 @@ h1{
 }
 
 .Welcome{
-  padding: 2rem 0 2rem 10rem;
+  padding: 2rem auto;
   border: 5px solid rgb(255, 81, 1);
   height: 8rem;
   width: 80%;
@@ -93,6 +104,7 @@ h1{
   align-items: center;
   justify-content: center;
   align-content: center;
+  text-align: center;
   margin-left: 11rem;
   margin-top: 150px;
   border-radius: 60px;
@@ -105,11 +117,81 @@ h1{
 .Welcome p{
   display: flex;
   text-align: center;
+  justify-content: center;
   font-size: 3rem;
   width: 80%;
   color: rgba(100, 6, 6, 0.89);
   font-weight: bolder;
 }
+@media screen and (max-width: 1024px){
+  .Titre, .Welcome, .Icons{
+    margin-left: 5rem;
+  }
+  .Icons img{
+    height: 150px;
+    width: 150px;
+  }
+  .Text p{
+    font-size: 1.5rem;
+  }
+  .Text{
+    margin-left: 5rem;
+  }
+  .Welcome p{
+    font-size: 2.2rem;
+  }
+}
+  @media screen and (max-width: 768px){
+  .Text p{
+    font-size: 1.2rem;
+  }
+  .Text{
+    margin-left: 4rem;
+}
+  }
+  @media screen and (max-width: 425px){
+    .Homebackground {
+     width:  130%;
+     min-height:150vh;
+    position: absolute;
+    }
+
+    .Titre{
+     margin-top: 8rem;
+    }
+    h1{
+     font-size: 3rem;
+    }
+    .Welcome p{
+      font-size: 1.5rem;
+    }
+    .Titre, .Welcome, .Icons{
+      margin-left: 2.5rem;
+    }
+    .Icons img{
+      height: 100px;
+      width: 100px;
+    }
+    .Text{
+      margin-left: 3rem;
+      width: 70%;
+    }
+   
+    .Text .Rs, .Text .SbI, .Text .SbC{
+      width: 40px;
+      color: #fff;
+      display: flex;
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 320px){
+    h1{
+      font-size: 2.3rem;
+    }
+  }
+    
+
+ 
 
 /*--------FIN HOME--------*/
 /*--------DEBUT RANDOM--------*/

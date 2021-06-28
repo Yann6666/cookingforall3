@@ -12,9 +12,8 @@ const Home = () => {
 
        
             <div className="Homebackground">
-                {/* <div classname="Homebackground">
-                <img src={Homebackground} alt="Légumes sur une planche en bois" />
-                </div> */}
+                
+               
                 <section className="Titre">
                     <h1> Cooking for All !!</h1>
                 </section>
@@ -24,9 +23,9 @@ const Home = () => {
                    <Link to ="country" ><img src={IconRight} alt="icone recette cuisine" /></Link>
                 </section>
                 <section className="Text">
-                    <p>Random Search</p>
-                    <p>Search by Ingredient</p>
-                    <p>Seach by Country</p>
+                    <p className="Rs">Random Search</p>
+                    <p className="SbI">Search by Ingredient</p>
+                    <p className="SbC">Search by Country</p>
                 </section>
                 <section className="Welcome">
                     <p>Welcome to  all Gourmets !!<br></br>Please click on one of the Icons Above</p>
