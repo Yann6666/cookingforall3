@@ -51,7 +51,7 @@ const Ingredients = () => {
                     </div>
                     <div className="SearchCount">
                         <Link to="country" ><img src={IconRight} alt="icone recette cuisine" /></Link>
-                        <p >Search by Country</p>
+                        <p>Search by Country</p>
                     </div>
                 </div>
                 <div className="Cards"> 

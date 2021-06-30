@@ -640,6 +640,152 @@ header{
   width: 150px;
   border-radius: 10px;
 }
+@media screen and (max-width: 1440px){
+  .Ingredients{
+  min-height: 600vh;
+}
+.Cards{
+  min-height: 600vh;
+}
+  .Recipe input{
+    margin-left: 50px;
+  }
+  .Loupe{
+    margin-left:280px;
+  }
+  .Ingredients .Icons{
+    margin-left: 140px;
+  }
+  .CardIngredients{
+    width: 260px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .Ingredients{
+    width: 125%;
+  }
+  .Ingredients .IconHome{
+    margin-left: 200px;
+  }
+  .Recipe input{
+    margin-left: 100px;
+  }
+  .Loupe{
+    margin-left:230px;
+  }
+  .Ingredients .Icons{
+    margin-left: 80px;
+  }
+}
+@media screen and (max-width: 768px){
+  .Ingredients{
+    width: 155%;
+    min-height: 800vh;
+  }
+  .Ingredients .IconHome{
+    margin-left: 250px;
+  }
+  .Recipe .Searchinput{
+    margin-left: 210px;
+  }
+  .Loupe{
+    margin-left:240px;
+  }
+  .Ingredients .SearchRandom{
+   margin-left:180px;
+   margin-right: 600px;
+}
+.Ingredients .SearchCount{
+  margin-left: 85px;
+ margin-top: 5px;
+}
+.CardIngredients{
+ margin-left: 110px;
+}
+}
+@media screen and (max-width: 425px){
+  .Ingredients{
+    width: 280%;
+    min-height: 1300vh;
+    background-position: inherit;
+  }
+  .Ingredients .IconHome{
+    margin-left: 400px;
+  }
+  .Recipe .Searchinput{
+    margin-left: 380px;
+    width: 800px;
+  }
+  .Loupe{
+    margin-left:400px;
+  }
+  .Ingredients .SearchRandom{
+    margin-left:350px;
+    margin-right: 500px;
+ }
+ .Ingredients .SearchCount{
+   margin-left: 10px;
+  margin-top: 5px;
+ }
+ .CardIngredients{
+  margin-left: 280px;
+  width: 600px;
+ }
+}
+@media screen and (max-width: 375px){
+  .Ingredients{
+    width: 320%;
+    min-height: 1300vh;
+    background-position: center;
+  }
+  .Ingredients .IconHome{
+    margin-left: 440px;
+  }
+  .Recipe .Searchinput{
+    margin-left: 400px;
+    width: 700px;
+    font-size: 1.5rem;
+  }
+  .Loupe{
+    margin-left:470px;
+  }
+  .Ingredients .SearchRandom{
+    margin-left:380px;
+    margin-right: 480px;
+ }
+ .Ingredients .SearchCount{
+   margin-left: 10px;
+  margin-top: 5px;
+ }
+ .CardIngredients{
+  margin-left: 310px;
+  width: 600px;
+ }
+}
+@media screen and (max-width: 320px){
+  .Ingredients{
+    width: 360%;
+    min-height: 1300vh;
+    background-position: center;
+  }
+  .Recipe .Searchinput{
+    margin-left: 420px;
+    width: 700px;
+    font-size: 1.5rem;
+  }
+  .Loupe{
+    margin-left:450px;
+  }
+  .Ingredients .SearchRandom{
+    margin-left:370px;
+    margin-right: 470px;
+ }
+ .Ingredients .SearchCount{
+   margin-left: 10px;
+  margin-top: 5px;
+ }
+}
+
 
 /*--------FIN INGREDIENT--------*/
 /*--------DEBUT COUNTRY--------*/
