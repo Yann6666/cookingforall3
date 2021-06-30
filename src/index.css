@@ -198,7 +198,7 @@ h1{
 
 
 .Random{
-  background-image: url(./images/backgroundrandom.jpg);
+  background-image: url(./images/kettles-2178442_1920.jpg);
   background-image: no-repeat;
   min-height: 100vh;
   width: 100%;
@@ -230,8 +230,8 @@ h1{
   padding-top: 50px;
   text-align: center;
   border-radius: 10px;
-  margin-left: 220px; 
-  margin-top: 250px;
+  margin-left: 120px; 
+  margin-top: 150px;
   border: 5px outset #ea7f73;
   background: rgba(191,82,82,0.44);
 }
@@ -270,7 +270,7 @@ h1{
 .Random .Icons{
   width:500px;
   height: 170px;
-  margin-top: 640px;
+  margin-top: 540px;
   margin-right: 520px;
   margin-left: -400px;
   display: flex;
@@ -279,14 +279,18 @@ h1{
   font-size: 1.3rem;
   color: rgb(141, 115, 1);
   font-weight: bolder;
+  background-color: rgba(15, 10, 7, 0.637);
+  border-radius: 5px;
 }
 
 .Menu {
-  background-color: transparent;
+  background-color: rgba(242, 110, 12, 0.37);
+  border-radius: 15px;
+  border: 5px outset #ea7f73;
   position: absolute;
-  margin-top:285px;
+  margin-top:100px;
   margin-left: 850px;
-  height: 520px;
+  height: 620px;
   width: 600px;
   display:flex;
   align-items: center;
@@ -307,13 +311,203 @@ h1{
   height: 300px;
   height: 300px;
   border-radius: 10px;
+  border: 5px outset #ea7f73;
 
 }
 .Menu .Logo{
   height: 100px;
   width: 100px;
   cursor: pointer;
+  border: none;
 }
+
+@media screen and (max-width: 1440px){
+  .Menu{
+    margin-left: 650px;
+    margin-top:70px;
+  }
+  .IconHome{
+    margin-top: 20px;
+  }
+  .Menu img{
+    margin-bottom: 20px;
+  }
+  .Menu .Logo{
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .Random{
+    width: 140%;
+    min-height: 140vh;
+  }
+  .Menu{
+    margin-left: 650px;
+    margin-top:130px;
+  }
+  .Textrandom{
+    margin-left: 50px; 
+  margin-top: 200px;
+  }
+  .Random .Icons{
+    margin-top: 640px;
+  }
+}
+@media screen and (max-width: 768px){
+  .Random{
+    width: 160%;
+    min-height: 165vh;
+    padding-top: 20px;
+  }
+  .Menu{
+    margin-left: 550px;
+    margin-top:130px;
+  }
+  .Textrandom{
+    margin-left: -60px; 
+  margin-top: 160px;
+  height: 560px;
+  width: 400px;
+  font-size: 3rem;
+
+  }
+  .Textrandom button{
+    height: 120px;
+    width: 300px;
+  }
+  .Random .Icons{
+    margin-top: 840px;
+    margin-left: -200px;
+    margin-right: -80px;
+    width: 600px;
+    height: 200px;
+    justify-content: space-between;
+  }
+  .Random .Icons img{
+    height: 140px;
+    width: 140px;
+    margin-left: 70px;
+    justify-content: space-between;
+  }
+  .IconHome{
+    margin-top: 10px;
+  }
+  .Random .Icons p{
+    font-size: 2rem;
+    margin-right: 10px;
+    margin-left: -10px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 425px){
+  .Random{
+    width: 1200px;
+    min-height: 300vh;
+    padding-top: 20px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  }
+  .Menu{
+    margin-left: 280px;
+    margin-top:650px;
+  }
+  .Textrandom{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    width: 850px;
+    height: 300px;
+    margin-left: 150px;
+    border-radius: 100px;
+    padding-bottom: 10px;
+    padding-bottom: -5px;
+  }
+  .Random .Icons{
+    margin-left: 220px;
+    width: 700px;
+    margin-top: 900px;
+  }
+}
+@media screen and (max-width: 375px){
+  .Random{
+ padding-top: 100px;
+    background-size: cover;
+    background-position: center;
+    min-height: 400vh;
+  
+  }
+  .Menu{
+    height: 800px;
+    width: 650px;
+    margin-left: 300px;
+   
+  }
+  .Menu h3{
+    font-size: 4rem;
+    margin-top: 50px;
+  }
+  .Menu h2{
+    font-size: 3rem;
+    margin-bottom: 50px;
+  }
+  .IconHome{
+    margin-left: 90px;
+  }
+  .Random .Icons{
+    margin-left: 250px;
+    width: 800px;
+    margin-top: 1100px;
+  }
+  .Random .Icons img{
+    height: 200px;
+    width: 200px;
+    margin-left: 70px;
+    justify-content: space-between;
+  }
+  .Random .Icons p{
+    font-size: 3rem;
+    height: 100px;
+    margin-right: 20px;
+    margin-left: -20px;
+    text-align: center;
+    justify-content: space-between;
+    background: none;
+  }
+  .Textrandom{
+    margin-left: 200px;
+    font-size: 4rem;
+    height: 400px;
+  }
+  .Textrandom button{
+    height: 300px;
+    width: 600px;
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 320px){
+  .Random{
+    padding-top: 100px;
+       background-size: cover;
+       background-position: center;
+       min-height: 390vh;
+     
+     }
+     .Textrandom{
+      margin-left: 200px;
+      font-size: 4rem;
+      height: 400px;
+    }
+    .Textrandom button{
+      height: 300px;
+      width: 600px;
+      font-size: 4rem;
+    }
+    .Random .Icons{
+      margin-top: 970px;
+    }
+}
+
 
 
 /*--------FIN RANDOM--------*/
