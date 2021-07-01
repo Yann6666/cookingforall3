@@ -322,11 +322,11 @@ const Country = () => {
             </div>
             <div className="IconCountry">
                 <div className="SearchRandomCountry">
-                    <Link to="random" ><img src={IconLeft} alt="icone recette cuisine" /></Link>
+                    <Link to="random" ><img src={IconLeft} alt="icone recette Tapas" /></Link>
                     <p>Random Search</p>
                 </div>
                 <div className="SearchIngCountry">
-                    <Link to="ingredients" ><img src={IconCenter} alt="icone recette cuisine" /></Link>
+                    <Link to="ingredients" ><img src={IconCenter} alt="icone recette Volaille" /></Link>
                     <p >Search by Ingredient</p>
                 </div>
 

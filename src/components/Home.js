@@ -18,9 +18,9 @@ const Home = () => {
                     <h1> Cooking for All !!</h1>
                 </section>
                 <section className="Icons">
-                   <Link to ="random" ><img src={IconLeft} alt="icone recette cuisine" /></Link>
-                   <Link to ="ingredients" ><img src={IconCenter} alt="icone recette cuisine" /></Link>
-                   <Link to ="country" ><img src={IconRight} alt="icone recette cuisine" /></Link>
+                   <Link to ="random" ><img src={IconLeft} alt="icone recette Tapas" /></Link>
+                   <Link to ="ingredients" ><img src={IconCenter} alt="icone recette Volaille" /></Link>
+                   <Link to ="country" ><img src={IconRight} alt="icone recette Boeuf" /></Link>
                 </section>
                 <section className="Text">
                     <p className="Rs">Random Search</p>

@@ -46,11 +46,11 @@ const Ingredients = () => {
 
                 <div className="Icons">
                     <div className="SearchRandom">
-                        <Link to="random" ><img src={IconLeft} alt="icone recette cuisine" /></Link>
+                        <Link to="random" ><img src={IconLeft} alt="icone recette Tapas" /></Link>
                         <p>Random Search</p>
                     </div>
                     <div className="SearchCount">
-                        <Link to="country" ><img src={IconRight} alt="icone recette cuisine" /></Link>
+                        <Link to="country" ><img src={IconRight} alt="icone recette Boeuf" /></Link>
                         <p>Search by Country</p>
                     </div>
                 </div>

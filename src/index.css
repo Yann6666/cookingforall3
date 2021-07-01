@@ -558,7 +558,7 @@ header{
   color:rgb(119, 23, 23);
   font-weight: bolder;
   width:30%;
-  margin-left:400px;
+  margin-left:300px;
   display: flex;
   justify-content:center;
   text-align: center;
@@ -765,7 +765,7 @@ header{
 @media screen and (max-width: 320px){
   .Ingredients{
     width: 360%;
-    min-height: 1300vh;
+    min-height: 1450vh;
     background-position: center;
   }
   .Recipe .Searchinput{
@@ -953,6 +953,186 @@ color: rgba(100, 6, 6, 0.89);
 button{
   background: none;
   border: none;
+}
+@media screen and (max-width: 1440px){
+  .Country{
+    background-image: cover;
+    background-position: center;
+    min-height: 120vh;
+  }
+  .Country .IconHome{
+    margin-top: 0;
+  }
+  .Card{
+    width: 80%;
+    height: 400vh;
+    margin-left: 140px;
+  }
+}
+@media screen and (max-width: 1024px){
+  .Country{
+    background-image: cover;
+    background-position: center;
+    min-height: 200vh;
+  }
+  .Card{
+    height: 500vh;
+  }
+  .AllFlags{
+    width: 90%;
+    margin-left: 60px;
+    height: 500px;
+}
+.Wonders input{
+  margin-left: 60px;
+}
+.Card{
+  margin-left: 110px;
+}
+}
+@media screen and (max-width: 768px){
+  .Flag p{
+    font-size: 1rem;
+    width: 90px;
+  }
+  .Flag{
+    width: 100px;
+  }
+  .AllFlags{
+    width: 90%;
+    margin-left: 40px;
+    height: 600px;
+}
+.Wonders input{
+  margin-left: 40px;
+}
+.Country .IconCountry{
+  margin-left: 10px;
+}
+.Card{
+  margin-left: 20px;
+  width: 95%;
+  height: 700vh;
+}
+.Country .NoResult{
+  margin-left: 200px;
+}
+}
+@media screen and (max-width: 425px){
+  .Country .IconHome{
+    width: 40px;
+    height: 40px;
+    padding-top: 40px;
+  }
+  .AllFlags{
+    width: 90%;
+    margin-left: 20px;
+    height: 800px;
+    margin-top: 50px;
+}
+.CardCountry{
+  height: 300px;
+  width: 250px;
+}
+.Flag p{
+  font-size: .8rem;
+  width: 70px;
+  
+}
+.Flag{
+  width: 80px;
+  height: 70px;
+  
+}
+.Flag img{
+  width: 48px;
+  height: 48px;
+}
+.Wonders input{
+  margin-left: 20px;
+  height: 70px;
+  width: 90%;
+  font-size: 2rem;
+}
+.Country .IconCountry img{
+  height: 90px;
+  width: 90px;
+}
+.Country .IconCountry p{
+font-size: 1rem;
+}
+.Country .IconCountry{
+  margin-left: 0px;
+}
+.IconCountry .SearchRandomCountry, .SearchIngCountry{
+  height: 150px;
+  width: 160px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.Card{
+  margin-left: 10px;
+}
+.Country .NoResult{
+  margin-left: 150px;
+}
+.CardCountry{
+  height: 240px;
+  width: 180px;
+}
+.CardCountry img{
+  width: 120px;
+  margin-left: 30px;
+}
+.CardCountry h2{
+  font-size: 1.2rem;
+}
+}
+@media screen and (max-width: 375px){
+  .CardCountry{
+    height: 200px;
+    width: 350px;
+  }
+  .CardCountry img{
+    width: 160px;
+    height: 150px;
+    margin-left: 90px;
+  }
+  .Card{
+    height: 1000vh;
+  }
+  .Wonders input{
+    font-size: 1.5rem;
+}
+.Country .IconCountry p{
+  color: black;
+}
+}
+@media screen and (max-width: 320px){
+  .Wonders input{
+    font-size: 1.2rem;
+}
+  .IconCountry .SearchRandomCountry, .SearchIngCountry{
+    height: 120px;
+    width: 130px;
+}
+.Country .IconCountry img{
+  height: 70px;
+  width: 70px;
+}
+.Country .IconCountry p{
+  font-size: 0.8rem;
+  color: black;
+  }
+  .Country .NoResult{
+    margin-left: 100px;
+    font-size: 2.5rem;
+  }
+  .CardCountry img{
+    width: 160px;
+    height: 150px;
+    margin-left: 70px;
+  }
 }
 
 /*--------FIN COUNTRY--------*/

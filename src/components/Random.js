@@ -68,11 +68,11 @@ const Random = () => {
             </div>
             <div className="Icons">
                 <div className="SearchIng">
-                    <Link to="ingredients" ><img src={IconCenter} alt="icone recette cuisine" /></Link>
+                    <Link to="ingredients" ><img src={IconCenter} alt="icone recette Volaille" /></Link>
                     <p >Search by Ingredient</p>
                 </div>
                 <div className="SearchCount">
-                    <Link to="country" ><img src={IconRight} alt="icone recette cuisine" /></Link>
+                    <Link to="country" ><img src={IconRight} alt="icone recette Boeuf" /></Link>
                     <p >Search by Country</p>
                 </div>
             </div>
